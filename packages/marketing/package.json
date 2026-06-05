@@ -1,0 +1,44 @@
+{
+  "name": "@autostackup/marketing",
+  "version": "0.1.2",
+  "description": "Marketing strategy MCP — Kotler 9-element framework, IMC planning, Meta & Google campaign structure",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "autostackup-marketing": "dist/server.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "mcp",
+    "autostackup",
+    "marketing",
+    "kotler",
+    "imc",
+    "meta",
+    "google-ads"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@autostackup/core": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@autostackup/sales",
+  "version": "0.1.1",
+  "description": "Sales lead tracking, qualification, enrichment, and pipeline management MCP server",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "autostackup-sales": "dist/server.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "mcp",
+    "autostackup",
+    "sales",
+    "crm",
+    "leads",
+    "pipeline"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@autostackup/core": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.0"
+  }
+}
