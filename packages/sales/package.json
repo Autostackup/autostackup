@@ -1,6 +1,6 @@
 {
   "name": "@autostackup/sales",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Sales lead tracking, qualification, enrichment, and pipeline management MCP server",
   "type": "module",
   "main": "./dist/index.js",
@@ -31,6 +31,7 @@
     "leads",
     "pipeline"
   ],
+  "mcpName": "io.github.autostackup/sales",
   "license": "MIT",
   "dependencies": {
     "@autostackup/core": "^0.1.0",
