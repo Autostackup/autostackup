@@ -1,6 +1,6 @@
 {
   "name": "@autostackup/founder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The only MCP a founder will ever need. All of Autostackup in one server — sales qualification, ICP scoring, pipeline forecasting, outreach generation, marketing audits, IMC campaign planning, candidate screening, offer letters, onboarding, interview kits, and performance reviews. Plus 3 founder-only orchestration tools: launch playbook, weekly briefing, and investor narrative. What a $500/hr strategy firm charges for, you get in one prompt.",
   "type": "module",
   "main": "./dist/index.js",

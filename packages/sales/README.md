@@ -97,10 +97,10 @@ Fetches verified email addresses, phone numbers, job titles, and company data fo
 
 | Package | Description |
 |---------|-------------|
+| [@autostackup/founder](https://www.npmjs.com/package/@autostackup/founder) | All tools in one server + founder orchestration |
 | **@autostackup/sales** | ← You are here |
-| [@autostackup/marketing](https://www.npmjs.com/package/@autostackup/marketing) | Kotler analysis, IMC planning, audience segmentation |
-| @autostackup/hr | 🔜 Recruitment, onboarding, offers |
-| @autostackup/founder | 🔜 Full orchestrator |
+| [@autostackup/marketing](https://www.npmjs.com/package/@autostackup/marketing) | Kotler audit, IMC planning, audience segmentation |
+| [@autostackup/hr](https://www.npmjs.com/package/@autostackup/hr) | Candidate screening, offers, onboarding, interviews, reviews |
 
 ## License
 

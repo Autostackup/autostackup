@@ -1,6 +1,6 @@
 {
   "name": "@autostackup/hr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The only HR MCP you'll ever need. Professionally built candidate screening with structured competency scoring, 30/60/90-day onboarding plans, offer letter generation, interview kits, and performance reviews — frameworks used by top People teams, all inside Claude. What HR consultants charge thousands for, you get in one prompt.",
   "type": "module",
   "main": "./dist/index.js",
