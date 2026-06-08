@@ -1,7 +1,7 @@
 {
   "name": "@autostackup/marketing",
-  "version": "0.1.4",
-  "description": "Marketing strategy MCP — Kotler 9-element framework, IMC planning, Meta & Google campaign structure",
+  "version": "0.1.5",
+  "description": "Give Claude a marketing brain. Kotler 9-element marketing mix audit, full IMC campaign planning across Meta & Google, and audience segmentation — the frameworks Fortune 500 CMOs use, built as MCP tools.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@autostackup/sales",
-  "version": "0.1.3",
-  "description": "Sales lead tracking, qualification, enrichment, and pipeline management MCP server",
+  "version": "0.1.4",
+  "description": "Give Claude a sales brain. BANT + MEDDIC lead qualification, ICP scoring, weighted pipeline forecasting, and personalized outreach — the frameworks elite sales teams use, built as MCP tools.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
