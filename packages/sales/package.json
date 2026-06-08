@@ -1,7 +1,7 @@
 {
   "name": "@autostackup/sales",
-  "version": "0.1.4",
-  "description": "Give Claude a sales brain. BANT + MEDDIC lead qualification, ICP scoring, weighted pipeline forecasting, and personalized outreach — the frameworks elite sales teams use, built as MCP tools.",
+  "version": "0.1.5",
+  "description": "The only sales MCP you'll ever need. Built by professionals using IBM's BANT, PTC's MEDDIC, and Fortune 500 pipeline frameworks. Qualify leads in seconds, score ICP fit, forecast revenue with weighted probability, and generate personalized outreach across email, LinkedIn & SMS — all inside Claude. Stop paying $300/hr consultants for strategy Claude can run right now.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

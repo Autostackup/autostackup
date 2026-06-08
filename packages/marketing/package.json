@@ -1,7 +1,7 @@
 {
   "name": "@autostackup/marketing",
-  "version": "0.1.5",
-  "description": "Give Claude a marketing brain. Kotler 9-element marketing mix audit, full IMC campaign planning across Meta & Google, and audience segmentation — the frameworks Fortune 500 CMOs use, built as MCP tools.",
+  "version": "0.1.6",
+  "description": "The only marketing MCP you'll ever need. Professionally crafted using Philip Kotler's 9-element framework — the same methodology taught at Harvard, INSEAD, and used by every Fortune 500 CMO. Run a full marketing mix audit, build a complete Meta + Google IMC campaign with budget allocation and creative brief, and map your audience into segments with a messaging matrix — all inside Claude. What agencies charge $15,000/month for, you get in one prompt.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
