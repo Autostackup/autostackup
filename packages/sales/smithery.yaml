@@ -1,0 +1,20 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      hunterApiKey:
+        type: string
+        description: "Hunter.io API key (optional, for lead enrichment)"
+      apolloApiKey:
+        type: string
+        description: "Apollo.io API key (optional, for lead enrichment)"
+  commandFunction: |-
+    (config) => ({
+      command: "npx",
+      args: ["-y", "@autostackup/sales"],
+      env: {
+        ...(config.hunterApiKey ? { HUNTER_API_KEY: config.hunterApiKey } : {}),
+        ...(config.apolloApiKey ? { APOLLO_API_KEY: config.apolloApiKey } : {})
+      }
+    })
