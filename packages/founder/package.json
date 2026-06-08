@@ -1,0 +1,50 @@
+{
+  "name": "@autostackup/founder",
+  "version": "0.1.0",
+  "description": "The only MCP a founder will ever need. All of Autostackup in one server — sales qualification, ICP scoring, pipeline forecasting, outreach generation, marketing audits, IMC campaign planning, candidate screening, offer letters, onboarding, interview kits, and performance reviews. Plus 3 founder-only orchestration tools: launch playbook, weekly briefing, and investor narrative. What a $500/hr strategy firm charges for, you get in one prompt.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "mcpName": "io.github.Autostackup/founder",
+  "bin": {
+    "autostackup-founder": "dist/server.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "mcp",
+    "autostackup",
+    "founder",
+    "startup",
+    "sales",
+    "marketing",
+    "hr",
+    "go-to-market",
+    "all-in-one"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@autostackup/core": "workspace:*",
+    "@autostackup/sales": "workspace:*",
+    "@autostackup/marketing": "workspace:*",
+    "@autostackup/hr": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.0"
+  }
+}
