@@ -1,6 +1,6 @@
 {
   "name": "@autostackup/sales",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sales lead tracking, qualification, enrichment, and pipeline management MCP server",
   "type": "module",
   "main": "./dist/index.js",
