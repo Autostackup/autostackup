@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Autostackup/marketing",
+  "description": "Kotler 9-element audit, IMC campaign planning, Meta & Google, audience segmentation for Claude.",
+  "repository": {
+    "url": "https://github.com/Autostackup/autostackup",
+    "source": "github"
+  },
+  "version": "0.1.7",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@autostackup/marketing",
+      "version": "0.1.7",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Autostackup/sales",
+  "description": "BANT + MEDDIC qualification, ICP scoring, pipeline forecasting & outreach for Claude.",
+  "repository": {
+    "url": "https://github.com/Autostackup/autostackup",
+    "source": "github"
+  },
+  "version": "0.1.6",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@autostackup/sales",
+      "version": "0.1.6",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "HUNTER_API_KEY",
+          "description": "Hunter.io API key for lead enrichment (optional)",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "APOLLO_API_KEY",
+          "description": "Apollo.io API key for contact enrichment (optional)",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
